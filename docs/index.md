@@ -117,7 +117,21 @@ O sucesso desses sistemas é uma peça-chave para a Pizza-Express manter sua rel
 
 # Decisões de arquitetura
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+*&lt;O aplicativo de pizzaria é uma plataforma dinâmica que une frontend e backend de maneira eficiente, proporcionando uma experiência fluida para os clientes. A classe Tela atua como uma ponte entre o frontend e o backend, recebendo pedidos, exibindo informações do Cardápio e interagindo de forma segura através do protocolo HTTPS.
+
+No backend, impulsionado pelos frameworks Django ou Flask, a Tela se conecta para consultar o Cardápio e processar pedidos. O Gerente assume a responsabilidade de gerenciar atualizações no Cardápio, enquanto o backend utiliza Django ORM ou SQLAlchemy para interações seguras com o banco de dados.
+
+A segurança é uma prioridade, com a implementação de consultas seguras SQL para prevenir injeções de SQL. O Flask-Security entra em cena para garantir autenticação e autorização sólidas. Além disso, são gerados logs detalhados, permitindo rastreamento de atividades e alertas sobre possíveis anomalias. Sistemas de monitoramento em tempo real, aliados à análise de padrões de tráfego suspeitos, contribuem para uma resposta proativa a eventos indesejados.
+
+O banco de dados, gerenciado pelo SQLAlchemy ou Django ORM, assegura interações seguras e criptografa dados sensíveis, priorizando a privacidade do cliente. O componente de pagamento é integrado com bibliotecas seguras, visando transações financeiras confiáveis.
+
+A localização do cliente é determinada de maneira segura, garantindo privacidade. A segurança é reforçada pela análise de código frequente, atualizações regulares e a utilização de mecanismos robustos de autenticação e autorização fornecidos pelo Django e Flask-Security.
+
+Testes regulares de segurança identificam e corrigem vulnerabilidades, mantendo a robustez do sistema. A infraestrutura é suportada por um servidor bem dimensionado, mantendo todos os componentes atualizados e implementando backups regulares para garantir a recuperação de dados em casos de falhas.
+
+As permissões de diretórios e arquivos são cuidadosamente gerenciadas, permitindo apenas leitura por padrão e autorizando escrita e execução conforme a necessidade específica de cada usuário ou grupo.
+
+Os logs detalhados gerados por todas as classes, em especial pelo backend, são essenciais para monitoramento e detecção de erros. Mecanismos automáticos notificam as equipes de desenvolvimento e segurança sobre eventos críticos, tentativas de ataque e acesso indevido, garantindo uma resposta ágil e eficaz.&gt;*
 
 # Diagrama de implantação
 
