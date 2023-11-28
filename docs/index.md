@@ -109,7 +109,8 @@ O sucesso desses sistemas é uma peça-chave para a Pizza-Express manter sua rel
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+*&lt;![WhatsApp Image 2023-11-27 at 23 49 22](https://github.com/giovannacostasi/Projeto-UML/assets/147102481/214e5d9b-380f-4109-9d9b-768ff3e40460)
+&gt;*
 
 # Diagrama de Componentes
 
