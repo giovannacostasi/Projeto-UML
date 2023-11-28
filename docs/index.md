@@ -114,7 +114,8 @@ O sucesso desses sistemas é uma peça-chave para a Pizza-Express manter sua rel
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+*&lt;![WhatsApp Image 2023-11-28 at 00 04 39](https://github.com/giovannacostasi/Projeto-UML/assets/147102481/d2abedbd-b553-4907-b7bd-022f4d95e1ef)
+
 
 # Decisões de arquitetura
 
@@ -136,7 +137,8 @@ Os logs detalhados gerados por todas as classes, em especial pelo backend, são 
 
 # Diagrama de implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+*&lt;![WhatsApp Image 2023-11-28 at 00 30 49](https://github.com/giovannacostasi/Projeto-UML/assets/147102481/c5be186b-d578-4e0a-8ddd-7c1b77581be6)
+&gt;*
 
 # Referências
 
